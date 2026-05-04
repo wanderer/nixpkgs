@@ -13,6 +13,7 @@
 }:
 stdenv.mkDerivation (finalAttrs: {
   __structuredAttrs = true;
+  strictDeps = true;
 
   pname = "diypresso-client";
   version = "1.0.1";
